@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /*Basic Syles*/
@@ -24,3 +25,10 @@ ul{
     background-color: #2a4454;
     height: 30vh;
 }
+=======
+/* Footer Section */
+
+footer{
+  background-color: #2a4454;
+}
+>>>>>>> 3e4a020a4513282bc476288708b06d4064654621
