@@ -1,0 +1,26 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Basic Syles*/
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 10;   
+    font-size: 18px;
+}
+.e-commerce-links{
+    text-decoration: none;
+    font-size: 25px;
+    color: aquamarine;
+    height: 6vh;
+}
+.e-commerce-header{
+    background-color: #444444;
+}
+#e-commerce-title{
+    position: relative;
+}
+.e-commerce-main{
+    background-color: #2a4454;
+    height: 30vh;
+}
