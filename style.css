@@ -1,32 +1,142 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /*Basic Syles*/
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-right: 10;   
-    font-size: 18px;
-}
-.e-commerce-links{
+*{
+    padding: 0;
+    margin: 0;
     text-decoration: none;
+    list-style: none;
+}
+/* Navbar Section */
+  body{
+    font-family: montserrat;
+  }
+  nav a:hover{
+      color: white;
+      border: 1px solid white;
+      border-radius: 20px;
+      transition: all 0.5sec;
+  }
+  nav a{
+      text-decoration: none;
+  }
+  nav{
+    background: #232F3E;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
     display: inline-block;
-    font-size: 25px;
-    color: aquamarine;
-    height: 6vh;
-}
-.e-commerce-header{
-    background-color: #444444;
-}
-#e-commerce-title{
-    position: relative;
-}
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+a:hover{
+    color: white;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  /* Media Queries */
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #232F3E;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a.active{
+      background: none;
+      color: white;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+
+/* Media Queries */
+  
+/* Header Section */
+
+/* Main Section */
+
 .e-commerce-main{
-    background-color: #2a4454;
-    height: 30vh;
+    background-color: #f5f5f5;
+    height: 100vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Section End */
+
 /* Footer Section */
 
 footer{
-  background-color: #2a4454;
+  background-color: #232F3E;
 }
+/* Footer Section End */
