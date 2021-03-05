@@ -160,6 +160,14 @@ a:hover{
 
 /* Footer Section */
 
+.btn btn-primary{
+  color: black !important;
+}
+#backTop{
+  display: inline-block;
+  align-items: center;
+  margin-right: 50%;
+}
 footer {
     display: -ms-inline-flexbox;
      background-color: #232F3E;
