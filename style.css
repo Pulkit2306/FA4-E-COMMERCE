@@ -289,3 +289,20 @@ h2 {
 
 
 /* Footer Section End */
+
+/* game */
+#box {
+    width: 10vw;
+    height: 10vw;
+    background-color: #b916f4;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box p {
+    font-size: 1.7vw;
+    color: white;
+}
