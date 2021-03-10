@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="Samsung.css">
+    <title>Payment Gateway</title>
+  </head>
+  <body>
+    <div id="wrapper">
+        <div class="payment">
+            <div class="payment_product">
+                <div>
+                    <h2>Samsung S21 Ultra</h2>
+                    <div class="price">
+                        ₹1,10,999
+                    </div>
+                </div>
+            </div>
+            <div class="payment_bill">
+                <h3>Item Summary</h3>
+                <ul>
+                    <li>
+                        <span>₹1,10,999 x 1 item</span>
+                        <span>₹1,10,999</span>
+                    </li>
+                    <li>
+                        <span>Dicounts</span>
+                        <span>None</span>
+                    </li>
+                    <li>
+                        <span>SubTotal</span>
+                        <span>₹1,10,999</span>
+                    </li>
+                    <li>
+                        <span>Tax and GST</span>
+                        <span>+₹3,100</span>
+                    </li>
+                    <li><span>Grand Total</span>
+                        <span>₹1,13,999</span></li>
+                </ul>
+                <hr>
+                <h3>Payment Information</h3>
+                <form action="/" class="payment_form">
+                    <div class="form_input">
+                        <input type="text" placeholder="Card Number" style="width: 100%;">
+                    </div>
+                    <div class="form_input">
+                        <select>
+                            <option>Month</option>
+                        </select>
+                        <select>
+                            <option>Year</option>
+                        </select>
+                        <input type="text" placeholder="CVV">
+                    </div>
+                    <a href="ThankYou.html">
+                    <button type="button">Order Now</button>
+                </a>
+                </form>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

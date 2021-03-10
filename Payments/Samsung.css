@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment{
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    box-shadow: 0px 0px 80px 45px rgba(0, 0, 0, 0.2);
+}
+.payment_product{
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    width: 40%;
+    height: 100%;
+    background-color: #232F3E;
+    background-image: url(/Media/Samsung_background.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.payment_bill{
+    padding: 40px;
+    width: 80%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.price{
+    background-color: #40454b;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+h3{
+    color: black;
+    font-weight: 400;
+    font-size: 50px;
+
+}
+ul{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.8;
+    color: black;
+}
+li:nth-last-child(1){
+    color: black;
+    font-weight: 2000;
+}
+hr{
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+}
+.payment_form input, select{
+    border: none;
+    color: white;
+    border-radius: 2px;
+    background-color:#232F3E;
+    padding: 10px 10px;
+    width: 32%;
+}
+.payment_form .form_input{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.payment_form button{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color:#232F3E;
+    padding: 15px 0;
+    font-size: 20px;
+}
